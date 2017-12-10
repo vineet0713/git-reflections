@@ -1,0 +1,2 @@
+When initializing a Git repository (repo), we add a .git hidden file to the directory.
+This .git file stores metadata about the repo, which is required!

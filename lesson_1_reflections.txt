@@ -1,0 +1,2 @@
+Used 'diff -u' command to see differences
+between two files.
