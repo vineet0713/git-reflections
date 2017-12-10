@@ -1,0 +1,22 @@
+git log - shows all of the commits, starting from most recent
+git diff [id1] [id2] - shows all differences between commits identified by id1 and id2
+
+'git config --global color.ui auto' command makes git diff color-keyed (red and green)
+
+git checkout [id] - resetting all files to their state during the specified commit id
+
+HEAD - this is what Git calls the current commit that you're working on
+
+"ls -a" - shows the hidden files in current directory
+(Git repos always have a hidden file ".git")
+
+git init - running this command in your current directory will make it a Git repo!
+
+Working Directory - the files on your hard drive
+Staging Area - Git's intermediate area between your working directory and Git repository
+Repository - the Git repo!
+
+git add [file] - adds the file to the staging area
+
+If you accidently added a file to the staging area:
+git reset [file] - removes the file from the staging area but keeps it in working directory
