@@ -20,3 +20,7 @@ git add [file] - adds the file to the staging area
 
 If you accidently added a file to the staging area:
 git reset [file] - removes the file from the staging area but keeps it in working directory
+
+Git Setup:
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
