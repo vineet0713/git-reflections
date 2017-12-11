@@ -24,3 +24,21 @@ git reset [file] - removes the file from the staging area but keeps it in workin
 Git Setup:
 git config --global user.name "Your Name"
 git config --global user.email you@example.com
+
+git diff - with no arguments, git diff shows the differences between working directory and staging area
+
+git diff --staged - shows the differences between staging area and repository (useful before committing!)
+
+git reset --hard - discards any changes in both the working directory AND staging area
+(NOTE: this command is irreversible!
+So run 'git diff' and 'git diff --staged' so you're sure about the changes you want to discard)
+
+git branch - with no arguments, git branch shows the current branches
+
+git branch [branchname] - creates a new branch with 'branchname'
+git checkout [branchname] - ensures that any change will affect only the specified branchname
+Equivalent command of above 2 commands: 'git branch -b [branchname]'
+
+git show [id] - shows the changes that the commit (specified by id) introduced relative to its parent!
+
+git branch -d [branchname] - deletes the branchname (only the label, not the commits associated with the branch)
