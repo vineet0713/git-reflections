@@ -1,1 +1,21 @@
 (start of lesson 3 reflections)
+
+Remote:
+allows for syncing data between two repositories
+stores the location of a repository that you want to send/receive new commits to/from
+operations using remote: push and pull
+
+A remote in your local repository is a reference to another repository
+
+Forking:
+allows you to make a copy of an existing repository on GitHub's servers, without pulling to local computer
+(it's basically a 'clone' that GitHub makes for you!)
+
+Cloning: it's possible to clone from a remote repository (from GitHub) or from a local repository
+
+When you clone a repository, Git automatically sets up a remote pointing to the cloned repository!
+
+'git pull origin master' is the same as: 'git fetch origin' + 'git merge master origin/master'
+(where origin is the remote and master is the branch)
+
+origin/master - (name of remote)/(name of the branch on the specified remote)
